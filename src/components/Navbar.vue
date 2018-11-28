@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h2>Nav Bar</h2>
         <nav>
             <router-link class="spacing"
                          v-for="routes in links" 
@@ -50,5 +49,9 @@ export default {
 <style>
 .spacing {
     margin-right: 50px;
+}
+
+nav {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
 }
 </style>
