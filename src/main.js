@@ -2,9 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import './plugins/vuetify'
-import './plugins/vuetify'
 import App from './App'
 import router from './router'
+//import firebase_db from './plugins/firebasedb'
+
+//firebase_db.init()
 
 Vue.config.productionTip = false
 
